@@ -14,11 +14,11 @@
  * @f: type pointer to function for the conversion specifier
  */
 
-typedef strucu format
+typedef struct format
 {
 	char *id;
 	int (*f)();
-} cover_match;
+} convert_match;
 
 int printf_ptr(va_list val);
 int printf_hexd_aux(unsigned long int num);

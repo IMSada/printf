@@ -21,7 +21,7 @@ int printf_HEXd(va_list val)
 	count++;
 	array = malloc(count * sizeof(int));
 
-	for (j = 0; i < count; j++)
+	for (j = 0; j < count; j++)
 	{
 		array[j] = temp % 16;
 		temp /= 16;
