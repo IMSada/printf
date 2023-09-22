@@ -5,7 +5,7 @@
  * @num: number to print.
  * Return: count
  */
-int printf_HEX_aux(unsigned int num)
+int printf_HEXd_aux(unsigned int num)
 {
 	int i;
 	int *array;
