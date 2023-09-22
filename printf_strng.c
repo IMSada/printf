@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _strlen - Returns the length of a string.
- * @s: Type char pointer
+ * _strlen - function returns the length of a string.
+ * @s: char pointer
  * Return: i.
  */
 int _strlen(char *s)
@@ -15,7 +15,7 @@ int _strlen(char *s)
 }
 /**
  * _strlenc - strlen function but applied for constant char pointer s
- * @s: Type char pointer
+ * @s: char pointer
  * Return: c
  */
 int _strlenchar(const char *s)
